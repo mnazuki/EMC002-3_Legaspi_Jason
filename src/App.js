@@ -1,5 +1,6 @@
 
 import './App.css';
+import UserProfile from './components/Greeting';
 
 function App() {
   return (
@@ -8,38 +9,24 @@ function App() {
         <div class="card">
         <img class="img1" src="/images/chaewon.jpg" alt="Kim Chaewon" />
           <div class="card-content">
-            <h3>Kim Chaewon</h3>
-            <p>Age: 24</p>
-            <p>Location: Quezon City</p>
+            <UserProfile name="Kim Chaewon" age="24" location="Quezon City"/>
           </div>
         </div>
         <div class="card">
         <img class="img2" src="/images/nayeon.jpg" alt="Im Nayeon" />
           <div class="card-content">
-            <h3>Im Nayeon</h3>
-            <p>Age: 28</p>
-            <p>Location: Pasig City</p>
+          <UserProfile name="Im Nayeon" age="28" location="Pasig City"/>
           </div>
         </div>
         <div class="card">
         <img class="img3" src="/images/haerin.jpg" alt="Kang Haerin" />
           <div class="card-content">
-            <h3>Kang Haerin</h3>
-            <p>Age: 18</p>
-            <p>Location: Makati City</p>
+          <UserProfile name="Kang Haerin" age="18" location="Makati City"/>
           </div>
         </div>
       </div>
-
     </div>
-    
-
-    
   );
-  
-
-
-
 }
 
 export default App;

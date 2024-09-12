@@ -1,7 +1,13 @@
 import React from 'react';
 
 function UserProfile(props){
-    return <h1>Name: {props.name}<br/> Age: {props.age}<br/> Location: {props.location}</h1>;
+    return (
+    <div>
+    <h1>{props.name}</h1>
+    <p>Age: {props.age}</p>
+    <p>Location: {props.location}</p>
+    </div>
+    );
 }
 
 export default UserProfile;
